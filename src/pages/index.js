@@ -42,8 +42,7 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
-                        <link rel="icon" href="../assets/images/site_icon.ico"/>
-
+                        
                 </Helmet>
 
                 <div id="main">
