@@ -20,12 +20,13 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
+import resume from '../assets/files/GianFranco_Macaraeg_Resume.pdf'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: full01, gh_link:'https://github.com/gfmacaraeg/Travel-Pal', thumbnail: thumb01, caption: 'Travel Pal', description: 'A CRUD web application that allows users to list their upcoming travel plans and other registered users can join trips based on all pre-existing trips.'},
     { id: '2', source: full02, gh_link:'https://github.com/gfmacaraeg/Security_cam', thumbnail: thumb02, caption: 'Security Cam', description: 'Security camera application that detects human faces and compares them to a list of known faces which triggers an email alert to the registered owners when an unknown face is detected. '},
     { id: '3', source: full03, gh_link:'https://github.com/gfmacaraeg/GianFranco_Site', thumbnail: thumb03, caption: 'Personal Portfolio Website', description: 'This is my personal porfolio website built with gatsby.js and react.js'},
-    { id: '4', source: full04, gh_link:'#', thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum'},
+    // { id: '4', source: full04, gh_link:'#', thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum'},
     // { id: '5', source: full05, gh_link:'#', thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '6', source: full06, gh_link:'#', thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
@@ -55,7 +56,7 @@ class HomeIndex extends React.Component {
                             or computer hardware, my goal is to constantly make things better. 
                             I am incredibly passionate about problem-solving, learning and engineering.</p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Resume</a></li>
+                            <li><a href={resume} target = "_blank" className="button">Resume</a></li>
                         </ul>
                     </section>
 
@@ -72,7 +73,7 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="https://github.com/gfmacaraeg" className="button">Full Portfolio</a></li>
+                            <li><a href="https://github.com/gfmacaraeg" target = "_blank"  className="button">Full Portfolio</a></li>
                         </ul>
                     </section>
 
@@ -82,16 +83,7 @@ class HomeIndex extends React.Component {
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <Email/>
-                                {/* <form method="post" action="https://formspree.io/xoqdypkg">
-                                    <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                    </div>
-                                </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul> */}
+                                
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
