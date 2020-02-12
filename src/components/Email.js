@@ -29,15 +29,7 @@ class Email extends React.Component {
           </ul>
         </form>
         
-        // <form>
-        //   <!-- add your custom form HTML here -->
-        //   <label>Email:</label>
-        //   <input type="email" name="email" />
-        //   <label>Message:</label>
-        //   <input type="text" name="message" />
-        //   {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-        //   {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        // </form>
+
       );
     }
   
