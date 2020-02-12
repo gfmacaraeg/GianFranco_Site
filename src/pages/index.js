@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
                             or computer hardware, my goal is to constantly make things better. 
                             I am incredibly passionate about problem-solving, learning and engineering.</p>
                         <ul className="actions">
-                            <li><a href={resume} target = "_blank" className="button">Resume</a></li>
+                            <li title="Open my Resume"><a href={resume} target = "_blank" className="button">Resume</a></li>
                         </ul>
                     </section>
 
@@ -73,7 +73,7 @@ class HomeIndex extends React.Component {
                         }))} />
 
                         <ul className="actions">
-                            <li><a href="https://github.com/gfmacaraeg" target = "_blank"  className="button">Full Portfolio</a></li>
+                            <li title="Open my Github page"><a href="https://github.com/gfmacaraeg" target = "_blank"  className="button">Full Portfolio</a></li>
                         </ul>
                     </section>
 
@@ -87,12 +87,11 @@ class HomeIndex extends React.Component {
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
-                                    {/* <li>
+                                    <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
+                                        Dallas, TX<br />
                                         United States
-                                    </li> */}
+                                    </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
                                         (615)594-65-95
