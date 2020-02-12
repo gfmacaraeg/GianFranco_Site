@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "GianFranco-site",
+  "description": "List of Projects",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "GianFranco Macaraeg",
   "dependencies": {
     "gatsby": "^2.15.14",
-    "gatsby-plugin-manifest": "^2.2.16",
+    "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-offline": "^3.0.6",
     "gatsby-plugin-react-helmet": "^3.1.7",
     "gatsby-plugin-sass": "^2.1.14",
