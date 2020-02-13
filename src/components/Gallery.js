@@ -36,7 +36,7 @@ class Gallery extends Component {
                         <img src={obj.thumbnail} />
                     </a>
 
-                    <h3><a href={obj.gh_link}>{obj.caption}</a></h3>
+                    <h3><a href={obj.gh_link} target = "_blank">{obj.caption}</a></h3>
                     <p>{obj.description}</p>
                 </article>
             );

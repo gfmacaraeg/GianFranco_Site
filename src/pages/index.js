@@ -6,27 +6,29 @@ import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 import Email from '../components/Email'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/fulls/footage_gif.gif'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
+import th_watch_party from '../assets/images/thumbs/watch_party.jpg'
+import th_sec_cam from '../assets/images/thumbs/footage_gif.gif'
+import th_travel_pal from '../assets/images/thumbs/travel_pal.jpg'
+import th_pers_site from '../assets/images/thumbs/pers_site.jpg'
+// import thumb05 from '../assets/images/thumbs/05.jpg'
+// import thumb06 from '../assets/images/thumbs/06.jpg'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/footage_gif.gif'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
+import fl_watch_party from '../assets/images/fulls/watch_party.jpg'
+import fl_sec_cam from '../assets/images/fulls/footage_gif.gif'
+import fl_travel_pal from '../assets/images/fulls/travel_pal.jpg'
+import fl_pers_site from '../assets/images/fulls/pers_site.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 import resume from '../assets/files/GianFranco_Macaraeg_Resume.pdf'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, gh_link:'https://github.com/gfmacaraeg/Travel-Pal', thumbnail: thumb01, caption: 'Travel Pal', description: 'A CRUD web application that allows users to list their upcoming travel plans and other registered users can join trips based on all pre-existing trips.'},
-    { id: '2', source: full02, gh_link:'https://github.com/gfmacaraeg/Security_cam', thumbnail: thumb02, caption: 'Security Cam', description: 'Security camera application that detects human faces and compares them to a list of known faces which triggers an email alert to the registered owners when an unknown face is detected. '},
-    { id: '3', source: full03, gh_link:'https://github.com/gfmacaraeg/GianFranco_Site', thumbnail: thumb03, caption: 'Personal Portfolio Website', description: 'This is my personal porfolio website built with gatsby.js and react.js'},
-    // { id: '4', source: full04, gh_link:'#', thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum'},
+    { id: '1', source: fl_watch_party, gh_link:'https://github.com/gfmacaraeg/Watch_Party', thumbnail: th_watch_party, caption: 'Youtube Watch Party', description: 'A web application using React.js that allows users to watch and sync YouTube videos simultaneously with other users and interact using a live chat feature using socket.io.'},
+    
+    { id: '2', source: fl_sec_cam, gh_link:'https://github.com/gfmacaraeg/Security_cam', thumbnail: th_sec_cam, caption: 'Security Cam', description: 'Security camera application that detects human faces and compares them to a list of known faces which triggers an email alert to the registered owners when an unknown face is detected. '},
+    { id: '3', source: fl_travel_pal, gh_link:'https://github.com/gfmacaraeg/Travel-Pal', thumbnail: th_travel_pal, caption: 'Travel Pal', description: 'A CRUD web application that allows users to list their upcoming travel plans and other registered users can join trips based on all pre-existing trips.'},
+    { id: '4', source: fl_pers_site, gh_link:'https://github.com/gfmacaraeg/GianFranco_Site', thumbnail: th_pers_site, caption: 'Personal Portfolio Website', description: 'This is my personal porfolio website built with gatsby.js and react.js'},
+    
     // { id: '5', source: full05, gh_link:'#', thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     // { id: '6', source: full06, gh_link:'#', thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
