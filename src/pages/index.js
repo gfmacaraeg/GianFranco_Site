@@ -20,7 +20,7 @@ import fl_pers_site from '../assets/images/fulls/pers_site.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
-import resume from '../assets/files/GianFranco_Macaraeg_Resume.pdf'
+import resume from '../assets/files/GianFranco_Macaraeg_Resume03.pdf'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: fl_watch_party, gh_link:'https://github.com/gfmacaraeg/Watch_Party', thumbnail: th_watch_party, caption: 'Youtube Watch Party', description: 'A web application using React.js that allows users to watch and sync YouTube videos simultaneously with other users and interact using a live chat feature using socket.io.'},
