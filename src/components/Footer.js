@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/files/GianFranco_Macaraeg_Resume03.pdf'
+import resume from '../assets/files/GianFranco_Macaraeg_M.pdf'
 
 class Footer extends React.Component {
     render() {

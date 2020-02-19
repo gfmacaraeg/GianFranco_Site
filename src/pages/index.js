@@ -10,17 +10,15 @@ import th_watch_party from '../assets/images/thumbs/watch_party.jpg'
 import th_sec_cam from '../assets/images/thumbs/footage_gif.gif'
 import th_travel_pal from '../assets/images/thumbs/travel_pal.jpg'
 import th_pers_site from '../assets/images/thumbs/pers_site.jpg'
-// import thumb05 from '../assets/images/thumbs/05.jpg'
-// import thumb06 from '../assets/images/thumbs/06.jpg'
+
 
 import fl_watch_party from '../assets/images/fulls/watch_party.jpg'
 import fl_sec_cam from '../assets/images/fulls/footage_gif.gif'
 import fl_travel_pal from '../assets/images/fulls/travel_pal.jpg'
 import fl_pers_site from '../assets/images/fulls/pers_site.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
 
-import resume from '../assets/files/GianFranco_Macaraeg_Resume03.pdf'
+import resumeM from '../assets/files/GianFranco_Macaraeg_M.pdf'
+import resumeQ from '../assets/files/GianFranco_Macaraeg_Q.pdf'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: fl_watch_party, gh_link:'https://github.com/gfmacaraeg/Watch_Party', thumbnail: th_watch_party, caption: 'Youtube Watch Party', description: 'A web application using React.js that allows users to watch and sync YouTube videos simultaneously with other users and interact using a live chat feature using socket.io.'},
@@ -41,6 +39,7 @@ class HomeIndex extends React.Component {
 
         return (
             <Layout>
+                
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
@@ -57,7 +56,7 @@ class HomeIndex extends React.Component {
                             or computer hardware, my goal is to constantly make things better. 
                             I am incredibly passionate about problem-solving, learning and engineering.</p>
                         <ul className="actions">
-                            <li title="Open my Resume"><a href={resume} target = "_blank" className="button">Resume</a></li>
+                            <li title="Open my Resume"><a href={resumeM} target = "_blank" className="button">Resume</a></li>
                         </ul>
                     </section>
 
